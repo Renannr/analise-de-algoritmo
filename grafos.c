@@ -1,4 +1,4 @@
-//Trabalho de Analise de algoritmos Função de busca em grafos (busca em largura)
+//Trabalho de Analise de algoritmos Função de busca em grafos (busca em largura e profundidade)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -89,8 +89,14 @@ void imprime() {
 }
 
 
-int busca(no *grafo, int fila[TAM]) {
+int BuscaEmLargura(no *grafo, int fila[TAM]) {
   // Faz uma busca em largura no grafo passado
+
+  return 0;
+}
+
+int BuscaEmProfundidade(no *grafo, int fila[TAM]) {
+  // Faz uma busca em profundidade no grafo passado
 
   return 0;
 }
